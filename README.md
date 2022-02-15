@@ -3,6 +3,7 @@
 
 in this code, I've implemented sentiment analysis task with sst-2 dataset.
 
+/result/cross heatmap.png
 
 paper:
 https://arxiv.org/abs/2011.01403
