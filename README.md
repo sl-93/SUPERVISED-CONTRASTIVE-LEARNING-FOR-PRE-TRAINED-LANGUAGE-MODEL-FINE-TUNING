@@ -3,8 +3,7 @@
 
 in this code, I've implemented sentiment analysis task with sst-2 dataset.
 
-![alt text](http://github.com/result/cross heatmap.png)
-<img src="http://github.com/result/cross heatmap.png" alt="Alt text" title="Optional title">
+results are in the result folder
 
 paper:
 https://arxiv.org/abs/2011.01403
