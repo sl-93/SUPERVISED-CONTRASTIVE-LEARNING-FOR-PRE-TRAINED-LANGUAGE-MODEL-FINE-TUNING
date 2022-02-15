@@ -11,7 +11,7 @@ cross entropy loss:
 
 cross entropy + contrastive loss:
 
-![My Image](https://github.com/sl-93/SUPERVISED-CONTRASTIVE-LEARNING-FOR-PRE-TRAINED-LANGUAGE-MODEL-FINE-TUNING/blob/main/result/cross%2Bcontrastile%20loss.png)
+![My Image](https://github.com/sl-93/SUPERVISED-CONTRASTIVE-LEARNING-FOR-PRE-TRAINED-LANGUAGE-MODEL-FINE-TUNING/blob/main/result/cross%20%2B%20contrastive%20loss.png)
 
 
 cross entropy heatmap:
@@ -21,7 +21,7 @@ cross entropy heatmap:
 
 cross entropy + contrastive loss heatmap:
 
-![My Image](https://github.com/sl-93/SUPERVISED-CONTRASTIVE-LEARNING-FOR-PRE-TRAINED-LANGUAGE-MODEL-FINE-TUNING/blob/main/result/cross%2Bcontrastive%20heatmap.png)
+![My Image](https://github.com/sl-93/SUPERVISED-CONTRASTIVE-LEARNING-FOR-PRE-TRAINED-LANGUAGE-MODEL-FINE-TUNING/blob/main/result/cross%20%2B%20contrastive%20heatmap.png)
 
 
 
