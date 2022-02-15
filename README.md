@@ -14,14 +14,18 @@ cross entropy + contrastive loss:
 ![My Image](https://github.com/sl-93/SUPERVISED-CONTRASTIVE-LEARNING-FOR-PRE-TRAINED-LANGUAGE-MODEL-FINE-TUNING/blob/main/result/cross%20%2B%20contrastive%20loss.png)
 
 
-cross entropy heatmap:
+cross entropy heatmap on test dataset:
 
 ![My Image](https://github.com/sl-93/SUPERVISED-CONTRASTIVE-LEARNING-FOR-PRE-TRAINED-LANGUAGE-MODEL-FINE-TUNING/blob/main/result/cross%20heatmap.png)
+
+Accuracy on test dataset:90.13
 
 
 cross entropy + contrastive loss heatmap:
 
 ![My Image](https://github.com/sl-93/SUPERVISED-CONTRASTIVE-LEARNING-FOR-PRE-TRAINED-LANGUAGE-MODEL-FINE-TUNING/blob/main/result/cross%20%2B%20contrastive%20heatmap.png)
+
+Accuracy on test dataset:92.20
 
 
 
