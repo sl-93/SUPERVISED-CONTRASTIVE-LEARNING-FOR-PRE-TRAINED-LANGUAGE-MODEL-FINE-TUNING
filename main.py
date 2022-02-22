@@ -256,8 +256,10 @@ def contrastive_loss(temp, embedding, label):
     dis = cosine_sim[~np.eye(cosine_sim.shape[0], dtype=bool)].reshape(cosine_sim.shape[0], -1)
     # apply temprature to elements
     dis = dis / temp
+    cosine_sim = cosine_sim / temp
     # apply exp to elements
     dis = np.exp(dis)
+    cosine_sim = np.exp(cosine_sim)
 
     # calculate row sum
     row_sum = []
@@ -269,9 +271,9 @@ def contrastive_loss(temp, embedding, label):
         n_i = label.tolist().count(label[i]) - 1
         inner_sum = 0
         # calculate inner sum
-        for j in range(len(embedding) - 1):
-            if label[i] == label[j + 1]:
-                inner_sum = inner_sum + np.log(dis[i][j] / row_sum[i])
+        for j in range(len(embedding)):
+            if label[i] == label[j] and i != j:
+                inner_sum = inner_sum + np.log(cosine_sim[i][j] / row_sum[i])
         if n_i != 0:
             contrastive_loss += (inner_sum / (-n_i))
         else:
