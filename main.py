@@ -270,7 +270,7 @@ def contrastive_loss(temp, embedding, label):
         inner_sum = 0
         # calculate inner sum
         for j in range(len(embedding) - 1):
-            if label[i] == label[j]:
+            if label[i] == label[j + 1]:
                 inner_sum = inner_sum + np.log(dis[i][j] / row_sum[i])
         if n_i != 0:
             contrastive_loss += (inner_sum / (-n_i))
